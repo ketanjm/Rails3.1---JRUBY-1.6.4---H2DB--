@@ -1,0 +1,11 @@
+development:
+  adapter: jdbch2
+  database: db/development_h2_database
+
+test:
+  adapter: jdbch2
+  database: db/test_h2_database
+
+production:
+  adapter: jdbch2
+  database: db/production_h2_database
